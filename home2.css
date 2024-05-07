@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* The CSS box-sizing property 
+    allows us to include the 
+    padding and border in an 
+    element's total width and height */
+}
+
+li 
+{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* color: aqua; */
+    font-size: 1.5rem;
+    font-family: "Alegreya Sans Sc",sans-serif;
+}
+ul li a:hover
+{
+    font-weight: bold;   
+    background-color: #fff;
+    color: black;
+    transition: all 0.4s;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+header
+{
+ position: relative;
+ padding: 0 2 rem;  
+ background-color: black; 
+}
+
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+}
+.navbar .logo1
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* text-decoration: none; */
+
+}
+
+.navbar .link
+{
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+/* TOGGLE BUTTON */
+.navbar .toggle_btn
+{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* ACTIVE BUTTON */
+.action_btn
+{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    /* border: none; */
+    /* outline: none; */
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.action_btn:hover
+{
+    scale: 1.05;
+    color: black;
+}
+.action_btn:active
+{
+    scale: 0.95;
+}
+/* ACTIVE BUTTON CSS ENDS */
+
+
+
+/* DROP DOWN  */
+
+.dropdown_menu.open
+{
+    height: 250px;
+}
+
+.dropdown_menu
+{
+    display: none;
+    position: absolute;
+    right: 2rem ;
+    top: 60px;
+    width: 400px;
+    background-color:black;
+    /* backdrop-filter: blur(15px); */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height :0;
+ 
+}
+.dropdown_menu li
+{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.dropdown_menu .action_btn
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+/* DROP DOWN MENU ENDS */
+
+
+#h1
+{
+    margin-top: 6vh;
+    margin-left: 3vh;
+    font-weight: lighter;
+    color: black;
+    font-family: cursive;
+    font-size: xx-large;
+    /* letter-spacing: 1px; */
+    /* font-weight: bold; */
+    
+}
+
+/* Card Padding */
+.card
+{
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    margin-right: 2vh;
+    letter-spacing:1px;
+    border-radius: 8px;
+    color: black;
+    float: left;
+    margin-bottom: 4vh;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+  .container {
+    padding: 2px 16px;
+  }  
+ 
+  #p
+  {
+    margin-top: 2vh;
+    font-family: cursive;
+  }
+  #h2
+  {
+    font-family: cursive;
+  }
+  .card .container h2{
+    color: orange;
+  }
+  
+  #btn
+  {
+    font-size: 1em;
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 8px;
+  }
+  #btn:hover
+  {
+    cursor: pointer;
+  }
+/* card css ends here */
+
+
+/* frequently asked questions */
+#none
+{
+    visibility: hidden;
+}
+.freqdiv
+{
+    margin-top: 1vh;
+}
+
+#freq
+{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-bottom:3vh;
+    font-family: cursive;
+    font-weight: lighter;   
+}
+#ques
+{
+    margin-top: 3vh;
+    margin-left:4vh;
+}
+
+#bttn
+{
+    padding: 10px;
+    /* padding-left: 80vh; */
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    justify-content: center;
+    margin-bottom: 1vh;
+    /* letter-spacing: 1px; */
+    /* color: orange; */
+}
+#q
+{
+    padding: 10px;
+    background-color:  lightgray;
+    border: 1px solid grey;
+    /* border-radius: 4px; */
+    box-shadow: 5px 5px 10px 5px grey;
+    width: fit-content;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 3vh;
+}
+
+#bttn1
+{
+    padding: 10px;
+    /* padding-left: 80vh; */
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    justify-content: center;
+    margin-bottom: 1vh;
+    /* letter-spacing: 1px; */
+    /* color: orange; */
+}
+#q1
+{
+    padding: 10px;
+    background-color:  lightgray;
+    border: 1px solid grey;
+    /* border-radius: 4px; */
+    box-shadow: 5px 5px 10px 5px grey;
+    width: fit-content;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 3vh;
+}
+#bttn2
+{
+    padding: 10px;
+    /* padding-left: 80vh; */
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    justify-content: center;
+    margin-bottom: 1vh;
+    /* letter-spacing: 1px; */
+    /* color: orange; */
+}
+#q2
+{
+    padding: 10px;
+    background-color:  lightgray;
+    border: 1px solid grey;
+    /* border-radius: 4px; */
+    box-shadow: 5px 5px 10px 5px grey;
+    width: fit-content;
+    letter-spacing: 1px;
+    font-family: cursive;
+    
+}
+
+/* Frequently Asked Questions Ends Here  */
+
+/* You tube CSS */
+
+.youtubecontent
+{
+    display: flex;
+    /* Here I have add display flex so both div aqquires their spaces 
+    And I can make my footer  */
+    margin-bottom: 3vh;
+}
+
+
+
+.youtube
+{
+    float: left;
+    margin-top:4vh;
+    margin-bottom:2vh;
+    margin-left:5vh;
+}
+.youcontent
+{
+    float:left;
+    margin-left:5vh;
+    margin-top:4vh;
+
+}
+.youcontent h3{
+    font-family: cursive;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+/* You Tube Content ends here */
+
+
+
+
+/* Footer Starts from here  */
+
+.footer 
+{
+    background-color: rgba(45, 40, 40, 0.895);
+    width: 100%;
+}
+.contact h1
+{
+    padding-top: 4vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Alegreya Sans Sc",sans-serif;
+}
+.contact p
+{
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 2vh;
+}
+.contacticon
+{
+    
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+        width: 2.5%;
+        height: 2.5%;
+        padding-right: 8px;
+}
+.contacticon1
+{
+    
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+        width: 2.5%;
+        height: 2.5%;
+        padding-right: 8px;
+        cursor: pointer;
+}
+
+.connect h1
+{
+    padding-top: 7vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Alegreya Sans Sc",sans-serif;
+}
+.connect p
+{
+    text-align: center;
+    padding-top: 3vh;
+    letter-spacing: 3vh;
+}
+.endfooter h1
+{
+    padding-top: 7vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Alegreya Sans Sc",sans-serif;
+    font-size: 3rem;
+}
+.endfooter p
+{
+    padding-top: 1vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Alegreya Sans Sc",sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Footer Ends Here */
+
+
+
+
+/* Saputara Page */
+
+
+
+
+
+
+
+
+@media(max-width:992px)
+{
+    .navbar .link,
+    .navbar .action_btn
+    {
+        display: none;
+    }
+    .navbar .toggle_btn
+    {
+        display: block;
+    }
+    .dropdown_menu
+    {
+        display: block;
+    }
+    .card
+    {
+     width: fit-content;
+     /* margin-left: 5px; */
+    }
+    .youtube iframe
+    {
+      width: fit-content;
+      height: fit-content;
+    }
+    .youcontent
+    {
+      margin-top: 3vh;
+
+    }
+    .contacticon
+    {
+      width: 5%;
+      height: 5%;
+    }
+    .contacticon1
+    {
+      width: 5%;
+      height: 5%;
+    }
+    
+    
+}
+
+@media(max-width:576px) {
+    .dropdown_menu
+    {
+        width: unset;
+        left: 2rem;
+    }
+   .card
+   {
+    width: fit-content;
+    margin-left: 5px;
+   }
+   #ques
+  {
+    margin-top: 1vh;
+    margin-left:4vh;
+  }
+  .youtube iframe
+  {
+    width: fit-content;
+    height: fit-content;
+  }
+  .youcontent
+  {
+    margin-top: 2vh;
+    margin-right:1vh ;
+  }
+  .youtubecontent
+  {
+    display: grid;
+  }
+  .contacticon
+  {
+    width: 10%;
+    height: 10%;
+  }
+  .contacticon1
+  {
+    width: 10%;
+    height: 10%;
+  }
+  
+  
+
+}
+
+

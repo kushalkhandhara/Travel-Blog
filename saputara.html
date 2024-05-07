@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPUTARA PAGE</title>
+
+
+    <!-- Icon for dropdown_menu  link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- fonts links -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="home1.css">
+    <link rel="stylesheet" href="saputara.css">
+    <script src="home.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Travel Blog</a>
+            </div>
+                <ul class="link">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="blogs1.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About me</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <a href="#" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+
+                <i class = "fa-solid fa-bars"></i>
+<!-- <i> is icon tag -->
+            </div>
+        </div>
+       
+
+        <div class="dropdown_menu">
+
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="blogs1.html">Blogs</a>
+            </li>
+            <li>
+                <a href="aboutme.html">About me</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+            <li>
+                <a href="#" class="action_btn">Get Started</a>
+            </li>
+        </div>
+    </header>
+
+
+    <h1 class="saputara">
+        Saputara Camp
+    </h1>
+
+
+    <center class="marginapply">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">1 / 3</div> -->
+              <img src="MA1.jpg" class = "saputaraimg">
+              <div class="text">Day 1</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">2 / 3</div> -->
+              <img src="T.jpg" class = "saputaraimg">
+              <div class="text">Day 2</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3 / 3</div> -->
+              <img src="MA1.jpg" class = "saputaraimg">
+              <div class="text">Day 3</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+</center>
+
+
+
+    
+
+
+
+
+
+
+
+    <div class = "saputaracontent">
+        <div class="contentpadding">
+            <h3>Day 1:</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aspernatur accusamus blanditiis itaque numquam dolore ad qui aliquid iusto dignissimos est, ea, non rem sit exercitationem. Excepturi ab beatae, libero quod totam temporibus blanditiis quas nisi animi natus, fugiat perferendis quae molestiae. Unde vel dolorem, voluptas nemo eveniet animi modi.</p>
+            <br>
+
+
+
+
+          
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            <br>
+            <h3>Day 2:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus explicabo odio perspiciatis incidunt alias. Dolor commodi adipisci maxime animi eveniet dolores dignissimos necessitatibus, autem explicabo fugit soluta enim repellendus voluptatum accusantium labore quidem saepe architecto, et expedita error? Sit aliquid velit iusto laboriosam quibusdam iste rerum nam sed facere?</p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="contact">
+            <h1>Contact:</h1>
+            <p>
+                <img src="telephone.png" alt="Error" class="contacticon">+91-9901010101
+            </p>
+            <p>
+                <img src="email.png" alt="Error" class="contacticon">travelblog@gmail.com 
+            </p>
+        </div>
+    
+        <div class="connect">
+            <h1>Connect:</h1>
+            <p>
+                <img src="instagram.png" alt="Error" class="contacticon1" onclick="location.href='https://www.instagram.com'">
+                <img src="facebook.png" alt="Error" class="contacticon1"  onclick="location.href='https://www.facebook.com'">
+                <img src="linkedin.png" alt="Error" class="contacticon1" onclick="location.href='https://www.linkedin.com'">
+                <img src="snapchat.png" alt="Error" class="contacticon1" onclick="location.href='https://www.snapchat.com'">
+                <img src="twitter (1).png" alt="Error" class="contacticon1" onclick="location.href='https://www.twitter.com'">
+            </p>
+        </div>
+        <div class="endfooter">
+            <h1>Travel Blog</h1>
+            <p>&copy; All Rights Reserved</p>
+    
+    
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+    <script>
+        const toggleBtn = document.querySelector(".toggle_btn")
+      const  toggleBtnIcon = document.querySelector(".toggle_btn i")
+      const dropDownMenu = document.querySelector(".dropdown_menu")
+    
+      toggleBtn.onclick = function() {
+
+        dropDownMenu.classList.toggle("open")
+
+         const isOpen = dropDownMenu.classList.contains("open")
+
+        toggleBtnIcon.classList  = isOpen
+        
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+        
+    }
+    
+    </script>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+        </script>

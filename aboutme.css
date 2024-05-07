@@ -1,0 +1,310 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.aboutmeheader
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 8vh;
+    font-size: 30.2px;
+    margin-left:4vh;
+    color: #3A3A3A;
+}
+.aboutblog
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left:4vh ;
+    color:  #0693e3;
+}
+.blockquote
+{
+    margin-left:4vh;
+    /* margin-right: 3vh; */
+}
+.aboutkush
+{
+    margin-left:4vh ;
+    margin-top: 4vh;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* color: #3A3A3A; */
+    color:  #0693e3;
+    font-weight: lighter;
+}
+.aboutk
+{
+    margin-left:4vh ;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+    font-weight: lighter;
+}
+
+.aboutk1
+{
+    margin-left:4vh ;
+    margin-top: 1vh;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+    font-weight: lighter;
+}
+.aboutk2
+{
+    margin-left:4vh ;
+    margin-top: 2vh;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+    font-weight: lighter;
+}
+.para1
+{
+    margin-left:4vh ;
+    margin-top: 1vh;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+    font-weight: lighter;
+}
+
+.kushal1
+{
+    width:650px ;
+    height:650px;
+    margin-left:4vh ;
+    margin-top: 4vh;
+}
+
+
+
+/* Vertical Line  Content*/
+
+.vl
+{
+    border-left: 0.5px solid  #2f2a2a69;
+    height: 1800px;
+    margin-left: 2vh;    
+}
+.vlabout
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30.2px;
+    color: #3A3A3A;
+    padding-top: 8vh;
+    margin-left: 2vh;
+}
+.vlimg
+{
+    border-radius: 40%;
+    width: 290px;
+    height: 290px;
+    padding-top: 4vh;
+    padding-left: 2vh;
+}
+
+.myself
+{
+    color: #3A3A3A;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 2vh;
+    font-weight: lighter;
+    padding-top: 1vh;
+
+}
+.myself1
+{
+    color: #3A3A3A;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    font-weight: lighter;
+}
+
+.myself3
+{
+    color: #3A3A3A;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 4vh;
+    padding-top: 3vh;
+    font-weight: lighter;
+
+
+}
+.myself4
+{
+    color: #0693e3;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 4vh;
+    /* padding-top: 3vh; */
+    font-weight: lighter;
+    font-size: 20px;
+}
+.myself44
+{
+    /* padding-left: 4vh; */
+    padding-top: 4vh;
+}
+.myself2
+{
+    color: #3A3A3A;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 2vh;
+    padding-top: 6vh;
+    font-weight: lighter;
+    
+
+}
+
+/* vertical line Content Ends Here */
+
+
+
+/* Social Media  */
+.Social
+{
+    display: flex;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+.socialhead
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left:6vh;
+    font-weight: lighter;
+
+}
+.underlineheadersocial {
+
+    /* text-align:center; */
+    margin-left: 5vh;
+    color:#0693e3;
+    font-size:1rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+     user-select: none; /* Standard syntax */
+
+}
+
+
+.socialcontent
+{
+    padding-left:6vh;
+    cursor: pointer;
+}
+.socialcontent1
+{
+    padding-left:15vh;
+    cursor: pointer;
+    display: none;
+    /* padding-top: 50vh; */
+}
+.myself454
+{
+    color: #3A3A3A;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 2vh;
+    padding-top: 6vh;
+    font-weight: lighter;
+    display: none;
+}
+
+
+
+/* Social Ends Here */
+
+
+/* Subscribe */
+.subcontent4
+{
+    margin-left:4vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: 4vh;
+
+}
+.subcontent5
+{
+    margin-left:4vh;
+    font-family: cursive;
+    font-weight: lighter;
+    padding-top: 4vh;
+    font-size: x-large;
+}
+.underlineheadersub22 {
+
+    /* text-align:center; */
+    margin-left: 4vh;
+    color:#0693e3;
+    font-size:1rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+     user-select: none; /* Standard syntax */
+
+}
+
+
+
+
+/* Subscribe Ends HEre */
+
+
+
+
+@media(max-width:576px) 
+{
+
+    .vl
+    {
+        /* display: none; */
+        border-left: 0px solid  #3A3A3A;
+        height: 0px;
+        margin-left: 2vh;       
+    }
+    .kushal1
+    {
+        width:350px ;
+        height:350px;
+    }
+ 
+    .socialcontent
+    {
+       display: none;
+    }
+    .socialcontent1
+    {
+        display: block;
+    }
+    .myself454
+    {
+        display: block;
+    }
+}
+
+
+
+@media(max-width:992px)
+{
+    .vl
+    {
+        /* display: none; */
+        border-left: 0px solid  #3A3A3A;
+        height: 0px;
+        margin-left: 2vh;       
+    }
+    .kushal1
+    {
+        width:350px ;
+        height:350px;
+    }
+
+    
+    
+}
+
